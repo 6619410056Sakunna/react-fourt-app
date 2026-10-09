@@ -1,10 +1,13 @@
-import ProductHeader from "./../components/ProductHeader";
-import Footer from "./../components/Footer";
+import ProductHeader from "../components/ProductHeader";
+import Footer from "../components/Footer";
 
-export default function () {
+
+export default function Computer() {
   return (
     <>
-      <ProductHeader />
+      <a href="/product" style={{ textDecoration: "none" }}>
+        <ProductHeader />
+      </a>
       <h2 style={{ textAlign: "center", color: "#1f22ca" }}>Computer Page</h2>
       <p style={{ textAlign: "center" }}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odio,
@@ -14,6 +17,7 @@ export default function () {
         deleniti, maiores aspernatur modi ipsum, itaque accusamus, labore non
         inventore id ad possimus.
       </p>
+      <Footer />
     </>
   );
 }

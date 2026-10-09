@@ -1,10 +1,10 @@
-import Header from "./../components/Header";
+import ProductHeader from "./../components/ProductHeader";
 import Footer from "./../components/Footer";
 
 export default function Smartphone() {
   return (
     <>
-      <a href="/product" style={{ textDecoration: "none" }}>
+      <a href="/product" style={{ textDecoration: "none" }}> 
         <ProductHeader />
       </a>
       <h2 style={{ textAlign: "center", color: "#1f22ca" }}>Computer Page</h2>
